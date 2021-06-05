@@ -1,5 +1,5 @@
 # Embedded Backdoor Connection via PDF Files :smiling_imp:
-***brought to you by***   ![](https://shields.io/badge/Bawang-Ranger-green?style=for-the-badge&logo=CodeIgniter&logoColor=orange)
+***brought to you by*** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![](https://shields.io/badge/Bawang-Ranger-green?style=for-the-badge&logo=CodeIgniter&logoColor=orange)
 
 ~~Please put in materials (e.g. Adobe Reader 8.1.2, normal PDF file, evil.pdf, report, Presentation Slides) that ease others to git clone the repo.~~
 
@@ -15,9 +15,9 @@ As soon as the PDF is opened in Adobe Reader, the users who are being tricked by
 - [Adobe Reader <= 8.1.2](http://www.oldversion.com/windows/acrobat-reader/) 
 
 ## Environment
-- **Attacker Machine**: Kali Linux version 2021.1   ![Kali Linux](https://img.shields.io/badge/Kali%20Linux-%3E=%202021.1-005ab3?style=for-the-badge&logo=kali-linux&logoColor=white)
-- **Target OS**: Windows 10 (x86) or Windows 7 (x86)   [![Windows 7 or 10](https://img.shields.io/badge/Windows-7%20%7C%2010%20-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/)
-- **Target Software**: Adobe Reader 8.1.2   [![Adobe Reader](https://img.shields.io/badge/Adobe%20Reader-%3C=%208.1.2-red?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white)](http://www.oldversion.com/windows/acrobat-reader-8-1-2)  
+- **Attacker Machine**: Kali Linux version 2021.1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![Kali Linux](https://img.shields.io/badge/Kali%20Linux-%3E=%202021.1-005ab3?style=for-the-badge&logo=kali-linux&logoColor=white)](https://www.kali.org/get-kali/#kali-virtual-machines)
+- **Target OS**: Windows 10 (x86) or Windows 7 (x86) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![Windows 7 or 10](https://img.shields.io/badge/Windows-7%20%7C%2010%20-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/)
+- **Target Software**: Adobe Reader 8.1.2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![Adobe Reader](https://img.shields.io/badge/Adobe%20Reader-%3C=%208.1.2-red?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white)](http://www.oldversion.com/windows/acrobat-reader-8-1-2)  
 
 ## Detailed Steps
 First, we launch the MSFconsole which provides command line interface for us to access the Metasploit framework.  
@@ -117,6 +117,8 @@ Once the file is opened by victim in Adobe Reader 8.1.2 with accepting to the pr
 **In real word scenario,** we will set up a website with the embedded-payload PDF to let victim download or attach the file via email.
 
 ---
+
+## Result of the exploitation
 
 Then, we can remotely access to the victim’s machine and then further performing more malicious behaviours that we wanted in the meterpreter session.
 
