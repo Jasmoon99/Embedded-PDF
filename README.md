@@ -1,7 +1,6 @@
 # Embedded Backdoor Connection via PDF Files :smiling_imp:
 ***brought to you by*** &nbsp;&nbsp;&nbsp; ![](https://shields.io/badge/Bawang-Ranger-green?style=for-the-badge&logo=CodeIgniter&logoColor=orange)
 
-~~Please put in materials (e.g. Adobe Reader 8.1.2, normal PDF file, evil.pdf, report, Presentation Slides) that ease others to git clone the repo.~~
 
 ## Introduction
 This demonstration video shows how we can control the victim's device by sending the innocent-looking PDF file to the target which actually consists of embedded payload. The exploit was made public as CVE-2010-1240.
